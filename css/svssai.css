@@ -1,0 +1,19 @@
+.logo{
+    margin-right: 8px;
+}
+  
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .svcontainer{
+
+    padding-top: 55px;
+
+  }
+
+  .headline{
+      margin-top: 15%;
+  }
