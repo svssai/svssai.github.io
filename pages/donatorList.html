@@ -1,22 +1,34 @@
 <h3><small> शाळेच्या विकासासाठी देणगी तसेच इतर मदत करणाऱ्यांची यादी </small></h3>
-
-<table class="table">
+<table id="donation-table" class="table table-striped table-bordered">
     <thead>
         <tr>
             <th scope="col"> <small>क्रमांक </small></th>
             <th scope="col"><small> नाव </small></th>
-            <th scope="col"> <small>देणगी देण्याचा प्रकार</small> </th>
+            <th scope="col"> <small>देणगीचा प्रकार</small> </th>
             <th scope="col"> <small>देणगीची रक्कम </small></th>
             <th scope="col"><small> जमा झालेली तारीख </small></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>प्रीतम संजय मोकल </td>
+            <td>रक्कम</td>
+            <td>1000₹</td>
+            <td>28/01/2019</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>प्रणय संजय मोकल </td>
+            <td>रक्कम</td>
+            <td>1000₹</td>
+            <td>28/01/2019</td>
         </tr>
     </tbody>
 </table>
+<h4 style="color: red;">सूचना : देणगीची स्वीकारण्याची  प्रक्रिया सुरु झालेली नाही ,वरील माहिती वास्तविक नसून ती उदाहरणार्थ लिहण्यात आली आहे </h4>
+<script>
+    $(document).ready(function(){
+        $('#donation-table').DataTable();
+    });
+</script>
